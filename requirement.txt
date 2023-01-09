@@ -5,3 +5,13 @@ from sklearn.ensemble import RandomForestClassifier
 from pickle import dump
 from pickle import load
 import pickle
+from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
+from sklearn.tree import  DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import cross_val_score
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import classification_report
+from sklearn.metrics import mean_squared_error,mean_absolute_error,mean_absolute_percentage_error
