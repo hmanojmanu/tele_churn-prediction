@@ -15,3 +15,4 @@ from sklearn.model_selection import cross_val_score
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report
 from sklearn.metrics import mean_squared_error,mean_absolute_error,mean_absolute_percentage_error
+from sklearn.ensemble import RandomForestClassifier
